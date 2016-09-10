@@ -1,0 +1,44 @@
+body {
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+}
+
+
+.card {
+  height: 190px;
+  border: solid 2px white;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.black-bg {
+  background-color: black;
+  cursor: pointer;
+}
+
+.clicked {
+  pointer-events: none;
+}
+
+.pic {
+  height: 185px;
+  width: 190px;
+  border-radius: 5px;
+}
+
+.center {
+  text-align: center;
+  text-decoration-style: double;
+}
+
+.header {
+  background-color: #193856;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  color: white;
+  box-shadow: 10px 10px 5px hsla(187, 100%, 5%, 0.62);
+}
+
+#toast {
+  background-color: red;
+}
